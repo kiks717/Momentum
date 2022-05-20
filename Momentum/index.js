@@ -29,12 +29,6 @@ fetch(' https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&qu
         <p> 👇 $${data.market_data.low_24h.usd}</p>
       
         `
-        /**
-         * Challenge: Add the name and icon of the cryptocurrency
-         * to the upper-left of the dashboard page
-         * 
-         * Use `data.name` and `data.image.small` to access that info
-         */
     })
     .catch(err => {document.querySelector('.time').textContent = err})
 
